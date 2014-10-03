@@ -53,7 +53,7 @@ $wordList = array("adapter",
 $numberList =array("1","2","3","4","5","6","7","8","9");
 $symbolList = array("!","@","#","$","%","^","&","*");
 $password = "";
-$numbers = $_POST["Numbers"];
+$numbers = $_POST["numbers"];
 $symbols = $_POST["symbols"];
 $wordsCount = $_POST["wordsCount"];
 $separator = $_POST["separator"];
@@ -65,20 +65,42 @@ $selectedNumbers = array();
 
 
 for( $i=1;$i<=$wordsCount; $i++){
+	$word = "";
 	$rand_nos = array_rand($wordList);
 	$selectedWords[$i-1]= $wordList[$rand_nos];
-	##Need to write code for checking repeatition
-	$password = $password . $wordList[$rand_nos];
-}
-
-if ($numbers <0) {
-echo $numbers;
-	for( $i=1;$i<=$numbers; $i++){
-		$rand_nos = array_rand($numberList);
-		$selectedNumbers[$i-1]= $numberList[$rand_nos];
-		$password = $password . $numberList[$rand_nos];
-		echo $numberList[$rand_nos];
+	
+	if ($capital == "no"){		
+		$word = $wordList[$rand_nos];
+	} 
+	if ($capital == "yes"){
+		$word = ucfirst($wordList[$rand_nos]);
 	}
+	if ($separator == "space"){
+		$word = $word . " ";		
+	}
+	
+	if ($separator == "hyphen"){
+		$word = $word . "-";
+	}
+	$password = $password . $word;
 }
+if (($separator == "space") or ($separator == "hyphen") ){
+	$password= substr($password,0,strlen($password)-1);
+	}
 
+
+for( $i=1;$i<=$numbers; $i++){
+		$rand_nos = array_rand($numberList);		
+		$selectedNumbers[$i-1]= $numberList[$rand_nos];		
+		$password = $password . $numberList[$rand_nos];	
+	
+	}
+	
+for( $i=1;$i<=$symbols; $i++){
+		$rand_symbol = array_rand($symbolList);		
+		$selectedSymbols[$i-1]= $symbolList[$rand_symbol];		
+		$password = $password . $symbolList[$rand_symbol];	
+	
+	}
+ 
 ?>
