@@ -2,6 +2,7 @@ body {
     margin-left: 200px;
 	background: #9dc2d0;
 	color: #7D775C;
+	
     
 }
 
@@ -41,7 +42,6 @@ position:relative;vertical-align: middle;width:200px;height:14px;font-family:Ari
 .myContainer {
     float:left;
 	width:80%;
-	text-align: center;
 	
 }
 
@@ -77,21 +77,14 @@ content {
     padding:5px; 
 }
 
-#nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:300px;
-    width:100px;
-    float:right;
-     
-}
+
 
 header {	
-	margin-top: 10px;	
+		
 	width: 50%;
 	height: 87px;
 	float: right;
-	text-align: center; 
+	
 }
 
 
@@ -106,13 +99,14 @@ background: black;
 h1 { 
 	font: italic bold 2.8em georgia, sans-serif;
 	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	margin :20px;
+	text-align:center;
+	
 	}
 p { 
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	text-align: center; 
+	
+	
 	
 	}

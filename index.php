@@ -1,12 +1,19 @@
 <html>
 	<header>
 		<title>Password Generator</title>
-		<link rel="stylesheet" type = "text/css" href="style_hemadri.css">	
+		<link rel="stylesheet" type = "text/css" href="style_hemadri.css"/>	
 		<?php require 'logic.php'?>
 	</header>
-	<body>
-		<h1> Password Generator</h1>
+				
 		<div class="myContainer">
+			<h1> Password Generator</h1>
+			<p>Welcome to the Password Generator !!!</p>
+			<p>This helps you in generating a password according to your needs which is easy to remember but hard to crack. Please specify
+			the number of words which you want to include(default being 2), number of numerics (default being 0), number of special characters (default being 0), 
+			word separator(default being None) and finally the word case (default is all lower).
+			Click on the "Generate" button to get your password.
+			</p>
+			<br>
 			<div class = "subContainer_div">
 				<content>					
 					<p>Your Password is : </p>							
@@ -53,27 +60,27 @@
 					</select>
 				</div>
 				<div id="group">
-					<label>First Letter Capital:</label>
+					<label>Word Case :</label>
 					<select name="capital">
-						<option value ="no">No</option>
-						<option value ="yes">Yes</option>
+						<option value ="Lower">Lower</option>
+						<option value ="Upper">Upper</option>
+						<option value ="First">Camel</option>
 									
 					</select>
 				</div>
 				<br>				
 				<br>
-				<div id="button">
 				<div id="group">
 					<input type ="submit" id = "button" value= "Generate" />
 				</div>
-				</div>
+			</div>
 								
-				<br>
+			<br>
 				
 		  </div>
 		  
-		</div>
 		
-	</body>
+		
+	
 
 </html>

@@ -69,11 +69,14 @@ for( $i=1;$i<=$wordsCount; $i++){
 	$rand_nos = array_rand($wordList);
 	$selectedWords[$i-1]= $wordList[$rand_nos];
 	
-	if ($capital == "no"){		
+	if ($capital == "Lower"){		
 		$word = $wordList[$rand_nos];
 	} 
-	if ($capital == "yes"){
+	if ($capital == "First"){
 		$word = ucfirst($wordList[$rand_nos]);
+	}
+	if ($capital == "Upper"){
+		$word = strtoupper($wordList[$rand_nos]);
 	}
 	if ($separator == "space"){
 		$word = $word . " ";		
