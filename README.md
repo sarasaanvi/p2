@@ -1,5 +1,5 @@
 ###Live URL of the project.
-http://p2.hemadri.me/p2/
+http://p2.hemadri.me
 
 ###Description of the project
 Password Generator helps you in generating a password according to your needs which is easy to remember but hard to crack. 
