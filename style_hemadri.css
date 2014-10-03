@@ -1,0 +1,114 @@
+body {
+    margin-left: 200px;
+	background: #9dc2d0;
+	color: #7D775C;
+    
+}
+
+
+
+form {
+  
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px;
+  width: 60%;
+  float: right;
+}
+input {
+width:100px;height:20px;font-family:Arial;font-size:18px;padding:0;
+}
+select {
+width:50px;height:14x;font-family:Arial;font-size:18px;padding:0;
+}
+label {  
+
+position:relative;vertical-align: middle;width:200px;height:14px;font-family:Arial;font-size:18px;display:inline-block;
+  
+}
+#group{
+ display: inline;
+ }
+.container {
+    text-align: center;
+	
+}
+
+.myContainer {
+    float:left;
+	width:80%;
+	text-align: center;
+	
+}
+
+
+.subContainer_div {
+	background: url("image/PASSWORD.jpg") no-repeat top left;    
+    width: 100%;	
+    background-color: #d0f0f6;
+    float : left;
+	height : 400;
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	display: inline;
+	
+	
+	
+}
+#imageDiv{
+	background: url("image/PASSWORD.jpg") no-repeat top left;
+	width: 30%;
+	text-align: center; 
+	border: 5px solid red;
+	display: inline;
+	height:400px
+}
+
+
+content {   
+    
+    float:right;
+	width:60%;
+	text-align:center;
+    padding:5px; 
+}
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:right;
+     
+}
+
+header {	
+	margin-top: 10px;	
+	width: 50%;
+	height: 87px;
+	float: right;
+	text-align: center; 
+}
+
+
+footer {
+background: black;
+    float:right;
+	width:60%;
+	text-align:center;
+    padding:5px; 
+	display :inline;
+}
+h1 { 
+	font: italic bold 2.8em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	margin :20px;
+	}
+p { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	text-align: center; 
+	
+	}
