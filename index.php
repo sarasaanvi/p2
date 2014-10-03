@@ -62,8 +62,10 @@
 				</div>
 				<br>				
 				<br>
+				<div id="button">
 				<div id="group">
 					<input type ="submit" id = "button" value= "Generate" />
+				</div>
 				</div>
 								
 				<br>

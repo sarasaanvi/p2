@@ -12,14 +12,18 @@ form {
   border-radius: 5px;
   overflow: hidden;
   margin: 20px;
-  width: 60%;
+  width: 50%;
   float: right;
+}
+#button {
+width:100px;height:30px;
+float:right;
 }
 input {
 width:100px;height:20px;font-family:Arial;font-size:18px;padding:0;
 }
 select {
-width:50px;height:14x;font-family:Arial;font-size:18px;padding:0;
+width:100px;height:14x;font-family:Arial;font-size:18px;padding:0;
 }
 label {  
 
