@@ -31,7 +31,7 @@ label {
 position:relative;vertical-align: middle;width:200px;height:14px;font-family:Arial;font-size:18px;display:inline-block;
   
 }
-#group{
+.group{
  display: inline;
  }
 .container {
@@ -69,7 +69,7 @@ position:relative;vertical-align: middle;width:200px;height:14px;font-family:Ari
 }
 
 
-content {   
+#content {   
     
     float:right;
 	width:60%;
@@ -100,6 +100,7 @@ h1 {
 	font: italic bold 2.8em georgia, sans-serif;
 	letter-spacing: 1px; 
 	text-align:center;
+
 	
 	}
 p { 
