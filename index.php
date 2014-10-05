@@ -69,8 +69,6 @@
 									
 					</select>
 				</div>
-				<br>				
-				
 				<div class="group">
 					<input type ="submit" id = "button" value= "Generate" >
 				</div>
